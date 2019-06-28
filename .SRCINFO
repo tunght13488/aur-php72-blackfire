@@ -1,21 +1,21 @@
-pkgbase = php-blackfire
+pkgbase = php72-blackfire
 	pkgdesc = Blackfire Profiler - PHP extension
-	pkgver = 1.25.0
-	pkgrel = 2
+	pkgver = 1.26.1
+	pkgrel = 1
 	url = https://blackfire.io
 	arch = i686
 	arch = x86_64
 	license = custom
 	depends = glibc
-	depends = php>=7.3.0
-	depends = php<7.4
-	backup = etc/php/conf.d/blackfire.ini
+	depends = php>=7.2.0
+	depends = php<7.3
+	backup = etc/php72/conf.d/blackfire.ini
 	source = blackfire.ini
-	sha256sums = 43f82aea3877cc0133cf2278cb85d0c612cf1f6c869ad430cbaa2b2598f78f33
-	source_i686 = blackfire.so-1.25.0_73_i686::http://packages.blackfire.io/binaries/blackfire-php/1.25.0/blackfire-php-linux_i386-php-73.so
-	sha256sums_i686 = b46cdaa5bc34a33e2e39d5c26ea1bc90dccdb4352a4edfe3e6937bad900d81e1
-	source_x86_64 = blackfire.so-1.25.0_73_x86_64::http://packages.blackfire.io/binaries/blackfire-php/1.25.0/blackfire-php-linux_amd64-php-73.so
-	sha256sums_x86_64 = 14e96d8cedc97c611225e0c18abb4350ea010dd0e9dcb167b9784a9e18e6c849
+	sha256sums = 90f4f316c817bd3fd37be794df645b3bc3480c167c92191e51c2decba7b4d352
+	source_i686 = blackfire.so-1.26.1_72_i686::http://packages.blackfire.io/binaries/blackfire-php/1.26.1/blackfire-php-linux_i386-php-72.so
+	sha256sums_i686 = 792a426ec29f88522c13e6c3acaa64fe7e9c65269cc64b7c7713b92b85c45c64
+	source_x86_64 = blackfire.so-1.26.1_72_x86_64::http://packages.blackfire.io/binaries/blackfire-php/1.26.1/blackfire-php-linux_amd64-php-72.so
+	sha256sums_x86_64 = 3b552bf1975af4cab24ef6964eb2e9ace7ef2626cae56c7133d284a2d802431f
 
-pkgname = php-blackfire
+pkgname = php72-blackfire
 
